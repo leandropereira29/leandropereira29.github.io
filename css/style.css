@@ -1,0 +1,98 @@
+body {
+  background: rgba(193, 196, 194, 0.555);
+  font-family: "Courgette", cursive;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  padding: 50px;
+}
+h1 a {
+  color: black;
+  text-decoration-line: none;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 30px;
+  color: black;
+}
+
+.perfil {
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+ul li i {
+  font-size: 50px;
+}
+
+/*section*/
+
+section {
+  text-align: center;
+}
+div p {
+  font-size: 20px;
+}
+
+p a {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+div ul li a {
+  list-style-type: none;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  width: 110px;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: -3px 5px 3px 2px;
+  text-decoration: none;
+  font-size: 25px;
+}
+div ul li a:hover {
+  background-color: rgb(212, 205, 205);
+}
+div ul {
+  list-style-type: none;
+  padding: 20px;
+  margin-bottom: 300px;
+}
+
+/*footer*/
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(49, 49, 47);
+}
+
+footer p {
+  padding-left: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+h3 ul {
+  list-style-type: 15px;
+  text-align: center;
+  list-style-type: none;
+  font-weight: normal;
+}
+h3 ul i {
+  font-size: 15px;
+  margin: 10px;
+}

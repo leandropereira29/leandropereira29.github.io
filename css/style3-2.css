@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: #f7f9f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 6vh;
+  background-color: rgb(203 203 203);
+  padding-top: 1px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 5px;
+  margin: 14px;
+  color: #181616;
+  font-size: 23px;
+}
+
+.fa-sharp,
+.icononav {
+  font-size: 23px;
+  color: #181616;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+div {
+  display: flex;
+  justify-content: flex-end;
+}
+.iconomas {
+  width: 100px;
+}
+
+/*section*/
+section {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+h2 i {
+  padding-left: 168px;
+}
+input {
+  width: 50%;
+  padding: 20pxpx;
+}
+
+label {
+  line-height: 1.9rem;
+}
+
+input[type="submit"] {
+  transform: translate(2.2%);
+  padding: 3px;
+  margin-top: 0.6rem;
+  font-weight: bold;
+}
+select {
+  padding: 20px;
+  margin: 10px;
+}
+
+form {
+  width: 25%;
+  margin: 31px;
+}
+
+.botones ul li {
+  padding: 20px;
+  display: inline-block;
+  list-style-type: none;
+  margin: 25px;
+}
+.cancelar {
+  border: blue solid 1px;
+  color: blue;
+  padding: 18px;
+  border-radius: 10px;
+}
+.agregar {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-control {
+  padding: 10px;
+  margin-right: 0;
+}
